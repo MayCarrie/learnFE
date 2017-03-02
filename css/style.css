@@ -1,0 +1,17 @@
+.smaller-image {
+    width: 100px;
+  }
+.thin-red-border-radius {
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+    border-radius:10px;
+  }
+.thin-red-border {
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+}
+.full-text{
+  margin: 10px 200px 10px 200px;
+}
