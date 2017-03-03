@@ -19,6 +19,13 @@
 <div class="full-text">
 <h1>Hello, HTML&CSS</h1>
 <p>h是英文header标题的缩写，标题无处不在，它的应用范围十分广泛：网站结构、写作文、PPT等。h1是主标题，h2是副标题，h3、h4、h5、h6依次递减字体的大小。b、i、sup、sub分别是<b>粗体</b>，<i>斜体</i>，<sup>上标</sup>，<sub>下标</sub></p>
+  <blockquote>昨夜西风凋碧树,独上高楼,望尽天涯路</blockquote>  
+  <blockquote>实用小标签</blockquote>
+   <ol>
+  <li>&ltblockquote>&lt/blockquote>:漂亮的引用！</li>
+  <li>&lthr /></li>
+  <li>&ltcode>&lt/code>,<pre>语言代码段,用&ltpre>&lt/pre></pre></li>
+  </ol>
 <h2 style="color:red">Hello, color</h2>
 <p><b>改变颜色的方法：</b></p>
 <p>1.HTML中：在元素的第一个<>里：style="color:red"修改字体颜色，这叫<b>inline style(内联样式)</b>。内联样式是为元素添加样式的最简单有效的方式，但是更易于维护的方式是使用层叠样式表CSS（Cascading Style Sheets）。在代码的最顶端，创建一个如下的style元素：&ltstyle>&lt/style>。</p>
@@ -33,13 +40,13 @@
 <p> color:red;}</p>
 <p>&lt/style></p>
 <p>然后在元素上应用声明的类选择器：class="blue-text"。注意：在CSS中，类选择器应该添加.为前缀。而在HTML中，class属性不能添加.为前缀。这是因为在CSS中如果类选择器前不添加. 浏览器就会误认为类选择器是一个元素选择器。</p>
-  <b>字体</b><br>
+  <b>字体</b><br />
 <p>字号是由样式属性font-size来控制的。比如：font-size: 30px;</p>
 <p>用font-family属性来设置元素的字体。比如：font-family: Sans-serif;</p>
 <p>导入谷歌字体</p>
-<p>只需要用link标签来引入谷歌Lobster字体。复制下面的代码片断并将其粘贴到你的代码编辑器的顶部：<br>&ltlink href="https://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
-<br>现在你可以将Lobster作为 font-family属性的值应用到元素上了。
-<br>有同学说会无法导入，那么试试下面的<a href="https://github.com/freecodecampchina/freecodecamp.cn/wiki/common-question">链接</a>：
+<p>只需要用link标签来引入谷歌Lobster字体。复制下面的代码片断并将其粘贴到你的代码编辑器的顶部：<br />&ltlink href="https://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
+<br />现在你可以将Lobster作为 font-family属性的值应用到元素上了。
+<br />有同学说会无法导入，那么试试下面的<a href="https://github.com/freecodecampchina/freecodecamp.cn/wiki/common-question">链接</a>：
 <br>&ltlink rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lobster"></p>
 <p>字体自动降级
 <br>有几种默认的字体是所有浏览器都可用的，包括Monospace、Serif和Sans-Serif。
